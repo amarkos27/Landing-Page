@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Thunderbolt;
+    src: url(./fonts/Thunderbolt.otf);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.header img {
+    border-radius: 100px;
+    width: 100px;
+    flex: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.2s;
+    flex: none;
+}
+
+.header h1,
+h2 {
+    font-family: Thunderbolt, sans-serif;
+    height: fit-content;
+    font-size: 25px;
+}
+
+.header h1 {
+    margin: 5px 0 0 0;
+}
+
+.header,
+.page-one {
+    background: #142d4c;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    padding: 22px 22px 0 22px;
+}
+
+.logo-name {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.links a:hover,
+button.sign-up:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.page-one {
+    justify-content: center;
+    gap: 100px;
+    padding: 0 22px 22px 22px;
+    min-height: 87vh;
+}
+
+.page-one img {
+    width: 500px;
+    flex: none;
+    border: 2px solid white;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+button.sign-up {
+    background: #0069ed;
+    color: white;
+    border: none;
+    padding: 5px 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.page-two,
+.page-three,
+.page-four {
+    display: flex;
+    min-height: 100vh;
+}
+
+.page-two {
+    flex-direction: column;
+    background: #ececec;
+}
+
+.alt-header {
+    text-align: center;
+    margin: 50px 0 150px 0;
+}
+
+.page-two img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #0069ed;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.card p {
+    width: 200px;
+    color: #455d7a;
+}
+
+.page-three {
+    background: #c4c1e0;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    width: 50vw;
+    font-size: 35px;
+}
+
+.testimonial h3 {
+    width: fit-content;
+    margin: 20px 0 0 auto;
+}
+
+.page-four {
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card {
+    min-height: 10vh;
+    padding: 50px;
+    background-color: #0069ed;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page-four h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.page-four h1 {
+    width: fit-content;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.call-to-action p {
+    width: fit-content;
+    margin-right: 100px;
+}
+
+button.alt-sign-up {
+    cursor: pointer;
+    padding: 5px 40px;
+    flex: none;
+    align-self: center;
+    color: white;
+    background: #0069ed;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+button.alt-sign-up:hover {
+    color: black;
+    background: white;
+}
+
+footer {
+    display: flex;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 25px;
+}
