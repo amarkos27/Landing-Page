@@ -109,8 +109,7 @@ button.sign-up {
 }
 
 .page-two,
-.page-three,
-.page-four {
+.page-three {
     display: flex;
     min-height: 100vh;
 }
@@ -171,8 +170,10 @@ button.sign-up {
 }
 
 .page-four {
+    display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 93vh;
 }
 
 .action-card {
